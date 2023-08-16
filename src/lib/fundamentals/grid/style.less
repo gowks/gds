@@ -1,0 +1,44 @@
+.f-grid-builder(@prefix, @num) when (@num > 0) {
+  &.gds-@{prefix}-@{num} {
+    max-width: 100% * (@num / 12)
+  }
+  .f-grid-builder(@prefix, @num - 1);
+}
+
+.gds-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .gds-tile {
+    background: @layer-3;
+    margin-bottom: @space-4 * 2;
+    padding: @space-4 * 4;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .gds-column {
+    margin-bottom: @space-4 * 2;
+    padding: @space-4 * 4;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.gds-tile, .gds-column {
+  @media @xs-breakpoint {
+    .f-grid-builder(xs, 12);
+  }
+  @media @sm-breakpoint {
+    .f-grid-builder(sm, 12);
+  }
+  @media @md-breakpoint {
+    .f-grid-builder(md, 12);
+  }
+  @media @lg-breakpoint {
+    .f-grid-builder(lg, 12);
+  }
+  @media @xl-breakpoint {
+    .f-grid-builder(xl, 12);
+  }
+}

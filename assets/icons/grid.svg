@@ -1,0 +1,12 @@
+<svg id="grid" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Background" width="16" height="16" fill="red" opacity="0"/>
+  <path id="Rectangle_7" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(1 1)"/>
+  <path id="Rectangle_7-2" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(6 1)"/>
+  <path id="Rectangle_7-3" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(11 1)"/>
+  <path id="Rectangle_7-4" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(11 6)"/>
+  <path id="Rectangle_7-5" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(6 6)"/>
+  <path id="Rectangle_7-6" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(1 6)"/>
+  <path id="Rectangle_7-7" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(1 11)"/>
+  <path id="Rectangle_7-8" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(6 11)"/>
+  <path id="Rectangle_7-9" data-name="Rectangle 7" d="M1,1V3H3V1H1M0,0H4V4H0Z" transform="translate(11 11)"/>
+</svg>

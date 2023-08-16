@@ -1,0 +1,24 @@
+@import './variables/global.less';
+@import './common/reset.less';
+@import './fonts/icons.css';
+
+.theme-mixin() {
+  @import (multiple) './common/default.less';
+  @import (multiple) './common/layout.less';
+
+  @import (multiple) './fundamentals/grid/style.less';
+  @import (multiple) './fundamentals/hero/style.less';
+  @import (multiple) './fundamentals/space/style.less';
+
+  @import (multiple) './components/card/style.less';
+}
+
+.gds-light {
+  @import (multiple) './variables/light.less';
+  .theme-mixin();
+}
+
+.gds-dark {
+  @import (multiple) './variables/dark.less';
+  .theme-mixin();
+}

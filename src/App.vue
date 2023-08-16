@@ -1,30 +1,48 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <header class="gds-sysbar">
+    <div class="gds-sysbar-top">
+      <router-link
+        title="Home"
+        to="/"
+        class="gds-sysbar-item gds-icon gds-icon-gcon"
+        active-class="gds-sysbar-item-active">
+      </router-link>
+      <router-link
+        title="Foundations"
+        to="/foundations"
+        class="gds-sysbar-item gds-icon gds-icon-layout"
+        active-class="gds-sysbar-item-active">
+      </router-link>
+      <router-link
+        title="Components"
+        to="/components"
+        class="gds-sysbar-item gds-icon gds-icon-sitemap"
+        active-class="gds-sysbar-item-active">
+      </router-link>
+      <router-link
+        title="Charts"
+        to="/charts"
+        class="gds-sysbar-item gds-icon gds-icon-bar-chart"
+        active-class="gds-sysbar-item-active">
+      </router-link>
+    </div>
+    <div class="gds-sysbar-bottom">
+      <a
+        title="Github"
+        href="http://github.com/gowks"
+        class="gds-sysbar-item gds-icon gds-icon-github">
+      </a>
+    </div>
+  </header>
+  <main class="gds-content">
+    <router-view/>
+  </main>
 </template>
 
 <style lang="less">
+@import './lib/style.less';
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  display: block;
+  height: 100%;
 }
 </style>

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?d7c5ee70796206d9eddae2d5100191cb#iefix") format("embedded-opentype"),
+url("./icons.woff2?d7c5ee70796206d9eddae2d5100191cb") format("woff2"),
+url("./icons.woff?d7c5ee70796206d9eddae2d5100191cb") format("woff");
+}
+
+*[class^="gds-icon-"]:before, *[class*=" gds-icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gds-icon-gcon:before {
+    content: "\1";
+}
+.gds-icon-home:before {
+    content: "\2";
+}
+.gds-icon-info:before {
+    content: "\3";
+}
+.gds-icon-warning:before {
+    content: "\4";
+}
+.gds-icon-error:before {
+    content: "\5";
+}
+.gds-icon-sitemap:before {
+    content: "\6";
+}
+.gds-icon-layout:before {
+    content: "\7";
+}
+.gds-icon-grid:before {
+    content: "\8";
+}
+.gds-icon-bar-chart:before {
+    content: "\1001";
+}
+.gds-icon-circle-1:before {
+    content: "\e000";
+}
+.gds-icon-circle-2:before {
+    content: "\e001";
+}
+.gds-icon-circle-3:before {
+    content: "\e002";
+}
+.gds-icon-circle-4:before {
+    content: "\e003";
+}
+.gds-icon-circle-5:before {
+    content: "\e004";
+}
+.gds-icon-circle-6:before {
+    content: "\e005";
+}
+.gds-icon-circle-7:before {
+    content: "\e006";
+}
+.gds-icon-square-1:before {
+    content: "\e007";
+}
+.gds-icon-square-2:before {
+    content: "\e008";
+}
+.gds-icon-square-3:before {
+    content: "\e009";
+}
+.gds-icon-square-4:before {
+    content: "\e00a";
+}
+.gds-icon-square-5:before {
+    content: "\e00b";
+}
+.gds-icon-square-6:before {
+    content: "\e00c";
+}
+.gds-icon-square-7:before {
+    content: "\e00d";
+}
+.gds-icon-github:before {
+    content: "\f000";
+}

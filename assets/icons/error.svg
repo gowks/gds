@@ -1,0 +1,6 @@
+<svg id="error" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Background" width="16" height="16" fill="red" opacity="0"/>
+  <path id="Polygon_1" data-name="Polygon 1" d="M4.118,1l-3,6,3,6H9.882l3-6-3-6H4.118M3.5,0h7L14,7l-3.5,7h-7L0,7Z" transform="translate(1 1)"/>
+  <rect id="Rectangle_4" data-name="Rectangle 4" width="1" height="4" transform="translate(7.5 5)"/>
+  <rect id="Rectangle_5" data-name="Rectangle 5" width="1" height="1" transform="translate(7.5 10)"/>
+</svg>

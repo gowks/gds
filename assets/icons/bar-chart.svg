@@ -1,0 +1,6 @@
+<svg id="bar-chart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Background" width="16" height="16" fill="red" opacity="0"/>
+  <path id="Rectangle_6" data-name="Rectangle 6" d="M1,1V5H3V1H1M0,0H4V6H0Z" transform="translate(1 9)"/>
+  <path id="Rectangle_7" data-name="Rectangle 7" d="M1,1V13H3V1H1M0,0H4V14H0Z" transform="translate(6 1)"/>
+  <path id="Rectangle_8" data-name="Rectangle 8" d="M1,1V9H3V1H1M0,0H4V10H0Z" transform="translate(11 5)"/>
+</svg>
