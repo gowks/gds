@@ -1,15 +1,18 @@
 @import './variables/global.less';
 @import './common/reset.less';
-@import './fonts/icons.css';
+@import './fonts/font.css';
+@import './icons/icons.css';
 
 .theme-mixin() {
   @import (multiple) './common/default.less';
   @import (multiple) './common/layout.less';
 
+  @import (multiple) './fundamentals/font/style.less';
   @import (multiple) './fundamentals/grid/style.less';
   @import (multiple) './fundamentals/hero/style.less';
   @import (multiple) './fundamentals/space/style.less';
 
+  @import (multiple) './components/button/style.less';
   @import (multiple) './components/card/style.less';
 }
 

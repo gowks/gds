@@ -1,0 +1,24 @@
+a.gds-btn, button.gds-btn {
+  border: @space-1 solid @button-border-color;
+  border-radius: @space-2;
+  display: inline-block;
+  padding: @space-4 (@space-4 * 4);
+  text-decoration: none;
+
+  &:hover {
+    background: @button-background-hover;
+    border-color: @button-background-hover;
+    color: @button-color-hover;
+  }
+
+  &.gds-btn-primary {
+    background: @button-primary-background;
+    border-color: @button-primary-background;
+    color: @white;
+
+    &:hover {
+      background: @button-primary-background-hover;
+      border-color: @button-primary-background-hover;
+    }
+  }
+}

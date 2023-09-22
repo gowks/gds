@@ -1,28 +1,36 @@
 /*
+ * Font family.
+ */
+
+@font: 'source-sans-3';
+
+/*
  * Allowed font sizes.
  */
 
-@font-14: 0.875em; // 14px
-@font-16: 1em;     // 16px
-@font-18: 1.125em; // 18px
-@font-24: 1.5em;   // 24px
-@font-36: 2em;     // 32px
-@font-64: 4em;     // 64px
+@font-size-14: 0.875rem; // 14px
+@font-size-16: 1rem;     // 16px
+@font-size-18: 1.125rem; // 18px
+@font-size-24: 1.5rem;   // 24px
+@font-size-36: 2rem;     // 32px
+@font-size-64: 4rem;     // 64px
 
 /*
  * All margins and paddings should be a multiple off this.
  */
 
-@space-4: 0.25em; // 4px
+@space-1: 0.0625rem; // 1px
+@space-2: 0.125rem; // 2px
+@space-4: 0.25rem; // 4px
 
 /*
  * Breakpoints.
  */
 
-@sm-viewport: 30em;  // 480px
-@md-viewport: 48em;  // 768px
-@lg-viewport: 75em;  // 1200px
-@xl-viewport: 100em; // 1600px
+@sm-viewport: 30rem;  // 480px
+@md-viewport: 48rem;  // 768px
+@lg-viewport: 75rem;  // 1200px
+@xl-viewport: 100rem; // 1600px
 
 @xs-breakpoint: ~"only screen and (min-width: 0)";
 @sm-breakpoint: ~"only screen and (min-width: @{sm-viewport})";
@@ -47,6 +55,7 @@
 @gray-80: #cccccc;
 @gray-90: #e6e6e6;
 
+@blue-30: #004099;
 @blue-35: #004ab3;
 @blue-40: #0055cc;
 @blue-45: #0060e6;

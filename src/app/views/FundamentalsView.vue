@@ -1,6 +1,6 @@
 <template>
   <div class="gds-appbar">
-    Foundations
+    Fundamentals
   </div>
   <div class="gds-appcontent">
   </div>

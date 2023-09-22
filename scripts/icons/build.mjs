@@ -3,8 +3,8 @@ import codepoints from './codepoints.mjs'
 
 generateFonts({
   name: 'icons',
-  inputDir: './src/lib/icons',
-  outputDir: './src/lib/fonts',
+  inputDir: './build/icons',
+  outputDir: './src/lib/icons',
   fontTypes: [
     FontAssetType.EOT,
     FontAssetType.WOFF2,
@@ -16,6 +16,7 @@ generateFonts({
     OtherAssetType.TS
   ],
   formatOptions: { json: { indent: 2 } },
+  normalize: true,
   tag: '*',
   prefix: 'gds-icon',
   codepoints,

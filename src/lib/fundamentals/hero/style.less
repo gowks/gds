@@ -1,6 +1,17 @@
 .gds-hero {
   background: @hero-background;
-  display: block;
-  height: 31.25em;
+  display: flex;
+  height: 31.25rem;
   max-height: 100vh;
+
+  * {
+    color: @white;
+  }
+
+  .gds-hero-left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

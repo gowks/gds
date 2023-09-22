@@ -1,13 +1,15 @@
 .f-space-builder(@num) when (@num > 0) {
-  .gds-m-t-@{num} { margin-top: @space-4 * @num; }
-  .gds-m-r-@{num} { margin-right: @space-4 * @num; }
-  .gds-m-b-@{num} { margin-bottom: @space-4 * @num; }
-  .gds-m-l-@{num} { margin-left: @space-4 * @num; }
+  .gds-mt-@{num} { margin-top: @space-4 * @num; }
+  .gds-mr-@{num} { margin-right: @space-4 * @num; }
+  .gds-mb-@{num} { margin-bottom: @space-4 * @num; }
+  .gds-ml-@{num} { margin-left: @space-4 * @num; }
 
-  .gds-p-t-@{num} { padding-top: @space-4 * @num; }
-  .gds-p-r-@{num} { padding-right: @space-4 * @num; }
-  .gds-p-b-@{num} { padding-bottom: @space-4 * @num; }
-  .gds-p-l-@{num} { padding-left: @space-4 * @num; }
+  .gds-pt-@{num} { padding-top: @space-4 * @num; }
+  .gds-pr-@{num} { padding-right: @space-4 * @num; }
+  .gds-pb-@{num} { padding-bottom: @space-4 * @num; }
+  .gds-pl-@{num} { padding-left: @space-4 * @num; }
+  
+  .f-space-builder(@num - 1);
 }
 
 .f-space-builder(16);

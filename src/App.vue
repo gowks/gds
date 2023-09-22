@@ -8,8 +8,8 @@
         active-class="gds-sysbar-item-active">
       </router-link>
       <router-link
-        title="Foundations"
-        to="/foundations"
+        title="Fundamentals"
+        to="/fundamentals"
         class="gds-sysbar-item gds-icon gds-icon-layout"
         active-class="gds-sysbar-item-active">
       </router-link>
@@ -34,7 +34,7 @@
       </a>
     </div>
   </header>
-  <main class="gds-content">
+  <main class="gds-main">
     <router-view/>
   </main>
 </template>

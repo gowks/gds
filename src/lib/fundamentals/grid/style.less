@@ -1,9 +1,4 @@
-.f-grid-builder(@prefix, @num) when (@num > 0) {
-  &.gds-@{prefix}-@{num} {
-    max-width: 100% * (@num / 12)
-  }
-  .f-grid-builder(@prefix, @num - 1);
-}
+@import './builder.less';
 
 .gds-row {
   display: flex;
@@ -11,15 +6,34 @@
 
   .gds-tile {
     background: @layer-3;
-    margin-bottom: @space-4 * 2;
+    background-clip: padding-box;
+    border-right: @space-4 solid @layer-2;
     padding: @space-4 * 4;
+    margin-bottom: @space-4;
     max-width: 100%;
     width: 100%;
+
+    .gds-tile-header {
+      display: flex;
+      margin-bottom: @space-4 * 2;
+
+      .gds-tile-left {
+        flex: 1 1 100%;
+
+        .gds-tile-title {
+          font-size: @font-size-16;
+        }
+      }
+
+      .gds-tile-right {
+        flex: 0 0;
+      }
+    }
   }
 
   .gds-column {
-    margin-bottom: @space-4 * 2;
-    padding: @space-4 * 4;
+    margin-bottom: @space-4 * 1;
+    border-right: @space-4 solid rgba(0, 0, 0, 0);
     max-width: 100%;
     width: 100%;
   }

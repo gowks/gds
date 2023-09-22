@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "icons:build": "svgo -f ./assets/icons -o ./src/lib/icons && node ./scripts/icons/build.mjs"
+    "icons:build": "svgo -f ./assets/icons -o ./build/icons && node ./scripts/icons/build.mjs"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -28,5 +28,6 @@
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
     "svgo": "^3.0.2"
-  }
+  },
+  "license": "MIT"
 }
